@@ -11,4 +11,6 @@ An Android application for gym users.
 </div>
 
 The homepage should be like this:
+<div align=left>
 <img src="https://github.com/GuanchengYao/Android-Studio-application/blob/master/img-folder/screenshot.png" width="400"/>
+</div>
