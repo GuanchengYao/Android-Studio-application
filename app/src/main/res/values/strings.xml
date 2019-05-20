@@ -1,0 +1,61 @@
+<resources>
+    <!-- login and register-->
+    <string name="app_name">My Workout</string>
+    <string name="password">Password:</string>
+    <string name="username">Username:</string>
+    <string name="reg_user">Username:&#160;</string>
+    <string name="reg_password">Input password:</string>
+    <string name="reg_pwd_again">Confirm password:</string>
+    <string name="register">Register</string>
+    <string name="back_to_main_page">Return to Login Page</string>
+
+    <string name="last_name">Last name:</string>
+    <string name="middle_name">Middle name:</string>
+    <string name="first_name">First Name:</string>
+    <string name="email">Email:&#160;</string>
+    <string name="phone">Phone:&#160;</string>
+
+    <!-- first page-->
+    <string name="one">Make Plan</string>
+    <string name="two">My Plan</string>
+    <string name="three">Search Information</string>
+    <string name="four">Logout</string>
+
+    <!-- second page-->
+    <string name="title_query">Query</string>
+    <string name="query_prompt">Choose a Query</string>
+    <string name="showresult_btn">Show Result</string>
+    <string name="goBack_btn">Return</string>
+    <string name="checkoutlist_btn">Find Location</string>
+
+    <string-array name="query_array">
+        <item>total plans</item>
+        <item>machine available</item>
+        <item>2017 use frequency</item>
+        <item>2018 use frequency</item>
+        <item>arm machine</item>
+        <item>leg machine</item>
+        <item>hip machine</item>
+        <item>chest machine</item>
+        <item>cardio machine</item>
+        <item>back machine</item>
+        <item>shoulder machine</item>
+        <item>machine location</item>
+        <item>all machines</item>
+        <item>location use frequency</item>
+        <item>workouts</item>
+        <item>locations</item>
+        <item>machine used</item>
+    </string-array>
+
+    <!-- make plan -->
+    <string name="username2">Username:</string>
+    <string name="machine">MachineID:</string>
+    <string name="time">Time:&#160;&#160;</string>
+    <string name="weekday">Weekday:</string>
+    <string name="makeone">Confirm</string>
+    <string name="maketwo">Return</string>
+
+    <!-- find machine -->
+    <string name="machinename">Machine Name:</string>
+</resources>

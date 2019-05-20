@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gym"
+    android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/make2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="@string/machine"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/make21"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_selector"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/make3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="@string/time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/make31"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_selector"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        android:headerBackground="@color/colorAccent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:text="@string/makeone"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:text="@string/maketwo"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

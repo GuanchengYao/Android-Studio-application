@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gym"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/reg_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_user"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/reg_userText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_selector"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/reg_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_password"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/reg_pwdText"
+                android:layout_height="match_parent"
+                android:layout_width="200dp"
+                android:background="@drawable/edit_selector"
+                android:inputType="textPassword"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_pwd_again"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:background="@drawable/edit_selector"
+                android:id="@+id/reg_pwdagText" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+                android:id="@+id/lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/last_name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/lasttext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_selector"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/middlename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/middle_name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/middletext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_selector"
+                android:ems="10"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/firsttext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_selector"
+                android:ems="10"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/emai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/emailtext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_selector"
+                android:ems="10"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f5f5f5"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/phonetext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_selector"
+                android:ems="10"/>
+        </TableRow>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_selector"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_selector"
+            android:text="@string/back_to_main_page"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+    </TableLayout>
+
+</LinearLayout>
